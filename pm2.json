@@ -5,31 +5,31 @@
       "script": "server/server.js",
       "env": {
         "NODE_ENV": "development",
-        "account": "",
-        "api": "wss://hangzhou.51nebula.com/",
+        "NODE_API": "wss://hangzhou.51nebula.com/",
+        "FAUCET_ACCOUNT": "",
+        "FAUCET_ACCOUNT_WIF": "",
         "DB_URL": "mongodb://localhost:27017/",
-        "DB_NAME": "cybex_faucet_test",
-        "wif": ""
+        "DB_NAME": "cybex_faucet_test"
       },
       "env_test": {
         "NODE_ENV": "test",
-        "account": "",
-        "api": "wss://hangzhou.51nebula.com/",
-        "wif": "5Khbvp8ZuSYFHRodoLTyvR29MyZRDQqMVwBGyH1HV2Udd3Nxi42",
+        "NODE_API": "wss://hangzhou.51nebula.com/",
+        "FAUCET_ACCOUNT": "",
+        "FAUCET_ACCOUNT_WIF": "",
         "DB_URL": "mongodb://localhost:27017/",
-        "DB_USER": "cybex_faucet_test",
-        "DB_PASS": "",
-        "DB_NAME": ""
+        "DB_NAME": "cybex_faucet_test",
+        "DB_USER": "",
+        "DB_PASS": ""
       },
       "env_production": {
         "NODE_ENV": "production",
-        "account": "",
-        "api": "wss://shanghai.51nebula.com/",
-        "wif": "",
+        "NODE_API": "wss://shanghai.51nebula.com/",
+        "FAUCET_ACCOUNT": "",
+        "FAUCET_ACCOUNT_WIF": "",
         "DB_URL": "mongodb://localhost:27017/",
-        "DB_USER": "cybex_faucet",
-        "DB_PASS": "",
-        "DB_NAME": ""
+        "DB_NAME": "cybex_faucet",
+        "DB_USER": "",
+        "DB_PASS": ""
       }
     }
   ]
