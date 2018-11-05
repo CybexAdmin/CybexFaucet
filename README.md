@@ -9,11 +9,11 @@ a minimal service for Cybex registration.
 ## How to run
 1. Clone this repository.
 2. `npm i` or `yarn`.
-3. Edit `pm2.json`, adding your faucet account and the database information. The faucet account must be a lifetime member of CybexDEX, whio will be the registrar of those accounts who is registered by this service.
-4. run `yarn start` for Dev & `yarn start:prod` for Prod.
+3. Edit `pm2.json`, adding your faucet account and the database information. The faucet account must be a lifetime member of CybexDEX, who will be the registrar of those accounts registered by this service.
+4. run `yarn start` for development & `yarn start:prod` for production.
 
 ## API
-Once the service started, it would listen to the port which you added into the pm2.json or the default port - 3050. As the minimal version of the faucet, there are only two routes will be used.
+Once the service started, it would listen to the port which you added into the pm2.json or the default port - 3050. As the minimal version of the faucet, there are only two routes should be used.
 
 * `POST /register/`
 
