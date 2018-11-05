@@ -1,0 +1,36 @@
+{
+  "apps": [
+    {
+      "name": "CybexFaucet",
+      "script": "server/server.js",
+      "env": {
+        "NODE_ENV": "development",
+        "account": "",
+        "api": "wss://hangzhou.51nebula.com/",
+        "DB_URL": "mongodb://localhost:27017/",
+        "DB_NAME": "cybex_faucet_test",
+        "wif": ""
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "account": "",
+        "api": "wss://hangzhou.51nebula.com/",
+        "wif": "5Khbvp8ZuSYFHRodoLTyvR29MyZRDQqMVwBGyH1HV2Udd3Nxi42",
+        "DB_URL": "mongodb://localhost:27017/",
+        "DB_USER": "cybex_faucet_test",
+        "DB_PASS": "",
+        "DB_NAME": ""
+      },
+      "env_production": {
+        "NODE_ENV": "production",
+        "account": "",
+        "api": "wss://shanghai.51nebula.com/",
+        "wif": "",
+        "DB_URL": "mongodb://localhost:27017/",
+        "DB_USER": "cybex_faucet",
+        "DB_PASS": "",
+        "DB_NAME": ""
+      }
+    }
+  ]
+}

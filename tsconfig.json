@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target":
+      "es2015",
+    "module":
+      "commonjs",
+    "moduleResolution": "node",
+    "strict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "outDir": "./server"
+  }
+}
