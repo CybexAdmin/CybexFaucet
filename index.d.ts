@@ -82,6 +82,7 @@ declare module "CybexFaucet" {
     is_wookong_done: 0 | 1 | 2;
     black_res?: any;
     libConfirmed?: any;
+    [other: string]: any;
   }
   class RegisterRequest {
     cap: {
