@@ -3,14 +3,14 @@ import { ChainStore, FetchChain, Login, TransactionBuilder } from "cybexjs";
 import { Apis } from "cybexjs-ws";
 import { List } from "immutable";
 import { differenceBy } from "lodash";
-import { EVENT_ON_NEW_HISTORY } from "./Constants";
+import { EVENT_ON_NEW_HISTORY } from "./constants";
 import {
   buildTransfer,
   genKeysFromWif,
   getAuthsFromPubkeys,
   logger,
   sortOpsAscend
-} from "./Utils";
+} from "./utils";
 import {
   GlobalDynamicObject,
   HistoryEntry,

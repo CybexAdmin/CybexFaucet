@@ -12,8 +12,8 @@ const logger = getLogger("Server");
 //
 import { COMMON_ERRORS } from "./lib/models/error";
 import { getDbInstance } from "./lib/database";
-import { EVENT_ON_NEW_HISTORY } from "./cybex/Constants";
-import { filterHistoryByOp } from "./cybex/Utils";
+import { EVENT_ON_NEW_HISTORY } from "./cybex/constants";
+import { filterHistoryByOp } from "./cybex/utils";
 import { ChainTypes } from "cybexjs";
 import { registerRouter } from "./routes/register";
 
